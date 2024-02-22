@@ -50,13 +50,13 @@ public class Example_04_StreamsAndLambdas {
     private static void example3() {
         int a = 1;
 
-        //что выведет здесь
+        // что выведет здесь
         for (int i = 0; i < 10; i++) {
             System.out.println(a++);
         }
 
-        //и здесь?
-        IntStream.range(0, 10).forEach(i -> System.out.println(a++));
+        // и здесь?
+        // IntStream.range(0, 10).forEach(i -> System.out.println(a++));
 
     }
 
